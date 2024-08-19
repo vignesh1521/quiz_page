@@ -1,0 +1,405 @@
+body{
+
+font-family: 'Roboto', sans-serif;
+
+	height:95.5vh;
+
+background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+	color: #fff;
+}
+
+
+.title{
+
+	text-align: center;
+	padding-bottom:5px;
+	border-bottom: 1px solid #fff;
+}
+
+.menu{
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+
+.menu-items {
+width: 98%;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	
+}
+a{
+	text-decoration: none;
+}
+
+.menu-items ul {
+	border-radius: 5px;
+	display: none;
+transition: 0.2s ease;
+background-color:#fe2d00;
+	padding: 3px;
+	list-style: none;
+	border: 1px solid red;
+	
+
+}
+
+.menu-items ul span{
+
+	position: relative;
+	top: -5px;
+	right: 2px;
+	float: right;
+	padding: 5px;
+	font-size: 16px;
+	font-weight:bold;
+}
+@media screen and (max-width: 400px){
+
+	.menu-items{
+		width: 95%;
+	}
+}
+span{
+	cursor: pointer;
+}
+.options li {
+  width: 97%;
+  margin: auto;
+}
+.ins h2{
+	text-align: center;
+}
+
+.ins1 h3{
+	
+	font-size: 20px;
+}
+
+.list li{
+	line-height:30px;
+	color: #c5c2c2;
+}
+.input{
+	margin: auto;
+	width: 98%;
+	border: 2px solid grey;
+   padding-bottom: 10px;
+	text-align: center;
+}
+.input i{
+	padding: 5px;
+
+border: 2px solid grey;
+	font-size: 50px;
+}
+.input select{
+	border-radius: 10px;
+}
+.input input{
+	border: 2px solid grey;
+margin-top:10px;
+border-radius: 10px;
+	width: 92%;
+	padding: 8px;
+}
+.input input[type='submit']{
+background: rgba(0, 0, 0, 0) linear-gradient(rgb(0, 0, 102), rgb(51, 153, 255)) repeat scroll 0% 0%;
+width:60%;
+	margin-top: 10px;
+	border: none;
+	border-radius:10px;
+	color:white;
+}
+.input select{
+	padding: 8px;
+	width: 94%;
+	background-color: #fff;
+}
+
+.input p{
+	color: red;
+	font-weight: bold;
+}
+@media screen and (max-width: 620px){
+	
+	.input input{
+		width:88.3%;
+	}
+}
+
+.options .form{
+	width: 98%;
+	margin-left:10px;
+}
+
+.options li label{
+transition: 0.2s ease;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius:10px;
+	position: relative;
+
+display: flex;
+
+}
+
+.options label:before{
+
+	content: " ";
+	height: 15px;
+	width: 15px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.options li input[type='radio']{
+	display: none;
+
+
+}
+.options li input[type='radio']:checked +  label {
+	background: rgba(0, 0, 0, 0) linear-gradient(to left, rgb(102, 102, 153) 0%, rgb(0, 0, 102) 100%) repeat scroll 0% 0%;
+	
+	border: 3px solid white;
+	font-weight: bold;
+
+}
+
+.options li input[type='radio']:checked +  label:before {
+	height: 10px;
+	width: 8px;
+	border: 6px solid white;
+}
+
+
+.options  input[type='button']{
+	display: block;
+	margin: auto;
+
+	position: relative;
+	top: 20px;
+width: 65%;
+padding: 10px;
+border: 2px solid #fff;
+border-radius: 10px;
+background:rgba(0, 0, 0, 0) linear-gradient(to left bottom, rgb(51, 204, 255) 0%, rgb(0, 0, 102) 100%) repeat scroll 0% 0%;
+color: #fff;
+font-weight: bold;
+
+}
+
+
+
+.header h2{
+	text-align: center;
+}
+
+.link{
+	border-radius: 10px;
+	text-align: center;
+	line-height: 25px;
+	border: 2px solid blue;
+	padding-bottom: 10px;
+}
+
+.link .linkbox {
+font-weight:normal;
+	margin: auto;
+	background-color:#fff;
+	color: black;
+	width: 90%;
+	padding:2px;
+	border: 2px solid blue;
+	border-radius: 10px;
+	
+	
+}
+
+.link .copy p{
+	
+	border-radius: 10px;
+
+	padding: 3px;
+	margin: auto;
+	width:60%;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0) linear-gradient(to left, rgb(0, 0, 102), rgb(51, 153, 255)) repeat scroll 0% 0%;
+	color: white;
+}
+
+
+
+.status p{
+	background: rgba(0, 0, 0, 0) linear-gradient(to left bottom, rgb(0, 255, 0), rgb(0, 51, 0)) repeat scroll 0% 0%;
+	width: 96%;
+	margin: auto;
+padding: 4.5px;
+position: relative;
+top: 13px;
+	border-radius: 10px;
+}
+.status a
+{
+
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.status a p i
+{
+	position: relative;
+	top: 5px;
+	left: -2px;
+	color: black;
+
+	font-size: 30px;
+}
+#copied{
+	color: red;
+	font-weight: bold;
+}
+.score{
+	text-align: center;
+	
+}
+
+
+.feed .back .title{
+	border:2px solid white;
+width: 70%;
+	padding: 10px;
+	border-radius: 20px;
+	position: relative;
+	top:20px;
+	margin: auto;
+	z-index: 1;
+	color: #fff;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right top, rgb(51, 204, 255) 0%, rgb(0, 0, 102) 100%) repeat scroll 0% 0%;
+
+}
+.feed .back .con{
+
+	border:2px solid white;
+	list-style: none;
+background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+
+}
+.feed .back .con h3{
+	margin-top: 10px;
+}
+.feed .back .con p{
+	text-align: center;
+}
+.con3 h2{
+text-align: center;
+}
+.qn{
+	border: 1px solid #fff;
+	background: rgba(0, 0, 0, 0) linear-gradient(rgb(51, 102, 204), rgb(0, 51, 153)) repeat scroll 0% 0%;
+	text-align: center;
+	padding: 15px;
+}
+
+.qn p{
+	font-weight: bold;
+
+}
+.qn .qna{
+	border: 2px solid #fff;
+	background: rgba(0, 0, 0, 0) linear-gradient(rgb(51, 204, 51), rgb(0, 102, 0)) repeat scroll 0% 0%;
+	padding-right: 20px;
+		padding-left:20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius:10px;
+}
+.opt  input[type='button']{
+display: block;
+margin: auto;
+width: 65%;
+padding: 10px;
+border: 2px solid #fff;
+border-radius: 10px;
+background:rgba(0, 0, 0, 0) linear-gradient(to left bottom, rgb(51, 204, 255) 0%, rgb(0, 0, 102) 100%) repeat scroll 0% 0%;
+color: #fff;
+font-weight: bold;
+
+
+}
+.board{
+	padding-bottom: 10px;
+}
+
+.table thead tr th{
+padding: 8px;
+}
+.table thead{
+		border-radius: 10px;
+background: rgba(0, 0, 0, 0) linear-gradient(rgb(0, 51, 0), rgb(0, 204, 102)) repeat scroll 0% 0%;
+}
+.table{
+padding-bottom: 10px;
+	border-collapse: collapse;
+	margin: auto;
+	width: 55.2%;
+	 background: rgba(0, 0, 0, 0) linear-gradient(rgb(51, 153, 102), rgb(0, 102, 0)) repeat scroll 0% 0%;
+}
+.con3{
+	padding-bottom: 50px;
+}
+.table tbody tr td{
+
+	border-bottom: 1px solid #ffff;
+	text-align: center;
+	padding: 4px;
+
+}
+td a{
+	text-decoration: none;
+	color: #fff;
+}
+.del h2{
+	text-align: center;
+}
+.feed h1{
+font-size: 30px;
+	color: whitesmoke;
+	text-align: center;
+
+}
+
+.feed .back{
+	display:none;
+}
+.feed .question{
+	padding-top: 10px;
+}
+.feed .question h3{
+
+	text-align: center;
+	position: relative;
+	top: 10px;
+	width:96%;
+}
+.form p{
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+.options .form{
+	position: relative;
+	top: 10px;
+	margin: auto;	
+}
+.p{
+	font-weight: bold;
+	padding:10px;
+}
+
+.link {
+	font-weight: bold;
+}
