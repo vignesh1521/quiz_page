@@ -66,7 +66,7 @@
 						<p>Now Share The Link With Your Friends</p>
 						<p>Check Their Feedback About You </p>
 						<div class="linkbox" id='sell'>
-							http://localhost/loginform/quiz.php?user_id=<?php echo $id ?>
+							http://localhost/quiz/quiz.php?user_id=<?php echo $id ?>
 						</div><br>
 						<span id='copied'></span>
 						<div class='copy'>
@@ -216,10 +216,6 @@
 									}
 								}
 
-
-
-
-
 								?>
 								<input type="submit" name="submit" value="submit">
 
@@ -227,17 +223,11 @@
 
 						</div>
 
-
-
-
-
 						<?php
 			} else {
 				header("location:index.php");
 
 			}
-
-
 
 		}
 

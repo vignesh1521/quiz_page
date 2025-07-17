@@ -40,7 +40,6 @@
 
 		</div>
 
-
 		<?php
 		include 'connect.php';
 
@@ -321,9 +320,9 @@
 														?>
 															<li><input type="radio" class="list" name="option<?php echo $id; ?>" value="<?php
 															   echo $option1; ?>" id="<?php
-																echo $option1; ?>">
+																echo $option1 , $id; ?>">
 																<label for="<?php
-																echo $option1; ?>">
+																echo $option1 , $id; ?>">
 																<?php
 																echo $option1;
 																?>
@@ -333,8 +332,8 @@
 
 														?>
 															<li><input type="radio" class="list" name="option<?php echo $id; ?>"
-																	value="<?php echo $option2; ?>" id="<?php echo $option2; ?>">
-																<label for="<?php echo $option2; ?>">
+																	value="<?php echo $option2; ?>" id="<?php echo $option2 , $id; ?>">
+																<label for="<?php echo $option2 , $id; ?>">
 																<?php
 																echo $option2;
 																?>
@@ -345,11 +344,11 @@
 
 														?>
 															<li><input type="radio" class="list" name="option<?php echo $id; ?>" id="<?php
-															   echo $option3;
+															   echo $option3 , $id;
 															   ?>" value="<?php
 															   echo $option3;
 															   ?>"><label for="<?php
-															   echo $option3;
+															   echo $option3 , $id;
 															   ?>"><?php
 															   echo $option3;
 															   ?></label></li><br><?php
@@ -358,11 +357,11 @@
 
 														?>
 															<li><input type="radio" class="list" name="option<?php echo $id; ?>" id="<?php
-															   echo $option4;
+															   echo $option4 , $id;
 															   ?>" value="<?php
 															   echo $option4;
 															   ?>"> <label for="<?php
-															   echo $option4;
+															   echo $option4 , $id;
 															   ?>"><?php
 															   echo $option4;
 															   ?></label></li><br><?php
@@ -373,9 +372,9 @@
 															<li><input type="radio" class="list" name="option<?php echo $id; ?>" value="<?php
 															   echo $option5;
 															   ?>" id="<?php
-															   echo $option5;
+															   echo $option5 , $id;
 															   ?>"><label for="<?php
-															   echo $option5;
+															   echo $option5 , $id;
 															   ?>"><?php
 															   echo $option5;
 															   ?></label></li><br><?php
